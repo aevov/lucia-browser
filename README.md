@@ -1,3 +1,6 @@
+> [!NOTE]
+> This repository is a core component of the **Aevov AI Technologies** ecosystem. For the complete lineage and orchestration hub, visit the [Alexandria Hub](https://github.com/aevov/alexandria-hub).
+
 # Lucia Browser: Hybrid Orchestration Engine (OSS Reference)
 
 Developed by **WPWakanda LLC** (officially recognized since 2019).
