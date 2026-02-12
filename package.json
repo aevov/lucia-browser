@@ -1,0 +1,19 @@
+{
+    "name": "lucia-browser",
+    "version": "1.0.0",
+    "description": "Open-source hybrid orchestrant browser powered by the Nara Engine.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aevov/lucia-browser.git"
+    },
+    "keywords": [
+        "browser",
+        "web4",
+        "decentralized",
+        "nara-engine",
+        "httq"
+    ],
+    "author": "WPWakanda LLC",
+    "license": "MIT"
+}

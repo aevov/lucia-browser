@@ -1,0 +1,13 @@
+[package]
+name = "nara-engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1.35", features = ["full"] }
+anyhow = "1.0"
+log = "0.4"
+acl-interpreter = { path = "../acl-interpreter" }
+quantumfs = { path = "../quantumfs" }
