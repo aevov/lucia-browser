@@ -24,12 +24,34 @@ Lucia is powered by the **Nara Engine**, the world's first Hyper-Orchestration b
 
 ---
 
-## 🏛️ Wakanda Technologies Lineage
+## 🛠️ Setup & Local Development
+
+### Prerequisites
+- **Rust Toolchain**: Install via [rustup.rs](https://rustup.rs/).
+- **Node.js**: Required for the frontend UI logic.
+- **Tauri CLI**: `cargo install tauri-cli`
+
+### Build Instructions
+```bash
+# Install frontend dependencies
+npm install
+
+# Build the Nara engine and browser shell
+cargo tauri build
+
+# Run in development mode
+cargo tauri dev
+```
+
+## 🏛️ Architecture & Lineage
 Lucia is a core component of the **Wakanda Technologies 4.0 Generation**.
 
 - **Generational Hub**: [Wakanda Technologies 4.0](https://github.com/aevov/wakanda-tech-4.0)
 - **Engine Core**: [Nara Engine](https://github.com/aevov/nara-engine) (GPL-3.0)
 - **Logic Engine**: [ACL 3.0](https://github.com/aevov/acl-3.0) (GPL-3.0)
+
+> [!TIP]
+> **Deep Dive**: For a detailed explanation of the **Nara Spatial Canvas**, the **Hybrid Orchestration Model**, and the **UOE (Universal Optimization Engine)**, read the [ARCHITECTURE.md](ARCHITECTURE.md) guide.
 
 ## 📄 License
 This repository uses a **Hybrid Licensing Model**:
