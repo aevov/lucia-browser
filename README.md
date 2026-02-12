@@ -28,11 +28,13 @@ Lucia is powered by the **Nara Engine**, the world's first Hyper-Orchestration b
 Lucia is a core component of the **Wakanda Technologies 4.0 Generation**.
 
 - **Generational Hub**: [Wakanda Technologies 4.0](https://github.com/aevov/wakanda-tech-4.0)
-- **Engine Core**: [Nara Engine](https://github.com/aevov/nara-engine-oss) (Included as a submodule/reference)
+- **Engine Core**: [Nara Engine](https://github.com/aevov/nara-engine) (GPL-3.0)
+- **Logic Engine**: [ACL 3.0](https://github.com/aevov/acl-3.0) (GPL-3.0)
 
 ## 📄 License
-This project is licensed under the **MIT License**.
-*Providing high-performance, decentralized browsing for everyone.*
+This repository uses a **Hybrid Licensing Model**:
+- **Browser Shell & UI**: [MIT License](LICENSE)
+- **Core Orchestration Engine**: [GPL-3.0 License](crates/nara-engine/LICENSE) (See individual components in `crates/`)
 
 ---
 © 2026 WPWakanda LLC / Aevov AI Technologies.

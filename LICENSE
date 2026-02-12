@@ -1,4 +1,7 @@
-MIT License
+# Lucia Browser: Hybrid Licensing Model
+
+## 1. Browser Application & UI (MIT License)
+The general browser shell, UI components, and integrated frontend logic are licensed under the **MIT License**.
 
 Copyright (c) 2026 WPWakanda LLC / Aevov AI Technologies
 
@@ -19,3 +22,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## 2. Core Orchestration Engine (GPL 3.0 License)
+The internal orchestration backplane, including the **Nara Engine** and the **ACL 3.0 Interpreter**, are licensed under the **GNU General Public License v3.0**.
+
+These components are included as sub-packages within the `crates/` directory and are subject to the terms of the GPL-3.0. For the full text of the GPL-3.0, see the individual LICENSE files within those directories or visit <https://www.gnu.org/licenses/gpl-3.0.html>.
